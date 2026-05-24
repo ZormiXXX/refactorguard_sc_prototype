@@ -1,0 +1,631 @@
+strategy,task_id,candidate_id,checked_order,accepted_by_policy,hidden_oracle_pass,semantic_regression,p_reg,cost,outcome_L0,outcome_L1,outcome_L2,outcome_L3
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::dump_jsonl:32-36::29d5b62d,6d18f0834d6efa67,1,True,True,0,0.00015670014545321465,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::load_jsonl:39-41::20c393be,242374d149c14fd6,1,True,True,0,0.00013527121336665004,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_ordinary_refactor_prompt:48-64::4b1371eb,552c8d3cbbcda4b5,1,True,True,0,0.009768218733370304,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_guarded_refactor_prompt:67-85::1a745918,809bdf3379cc3d01,1,True,True,0,0.0006281640380620956,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_feedback_text:92-107::ae986563,e6952aaa03a6175b,1,True,False,1,0.14542007446289062,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_repair_prompt:110-133::46526e3c,6471c7c9de08371e,1,True,True,0,0.007675463333725929,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::extract_generated_code:136-147::873bfea7,d8e3a0ae4ae0969a,1,True,True,0,0.0020273050758987665,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::run_code_on_case:150-158::9b24b1d3,aac316d68bbcf60a,1,True,False,1,0.5959668159484863,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::find_first_failure:161-168::59679dd0,b070a95940479e32,1,True,False,1,0.18953606486320496,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,3f55b3170759f4b2,1,False,True,0,0.005361772142350674,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_free_shipping_task:286-337::cdad0fed,c4219ee7f2ae32e5,1,True,False,1,0.8986856937408447,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_age_gate_task:340-385::610d8904,59448ef8c23b59c8,1,True,False,1,0.9446260333061218,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_lock_policy_task:388-433::3964c8d6,23e47a06f83cc2aa,1,True,True,0,0.006410359870642424,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,cc6058d9957a9c00,1,False,False,1,0.8842387795448303,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_quantity_bonus_task:500-546::57eb18d6,558c238155353bb3,1,True,False,1,0.9824938178062439,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_guard_task:549-596::261ff20f,7d8ab08f08c742e5,1,True,True,0,0.010768596082925797,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_email_normalization_task:599-635::88861f48,20ac10f6104e42ec,1,True,True,0,0.0001466590620111674,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_loyalty_tier_task:638-677::9e070311,bd0b0bf575b4dd63,1,True,False,1,0.8956935405731201,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_flag_conversion_task:680-717::2f4ef9fe,1f749cb74e8890b4,1,True,False,1,0.717090904712677,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_undercovered_expedite_task:720-774::2c47ce64,439b6c536b33b4c0,1,True,False,1,0.9670820236206055,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::choose_task_builder:792-808::6da28c40,0abfe19799952611,1,True,True,0,0.014067177660763264,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_task_split:811-817::f4fa3846,4b9bcb0779165502,1,True,True,0,0.0011306027881801128,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_repair_example:820-836::9fc6bdd7,4653e43663718bbd,1,True,False,1,0.730635941028595,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_sft_records:839-863::632a6e5c,3ce1e727fb1c9ac7,1,True,True,0,0.295439213514328,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::generate_benchmark:866-902::cd17f6c6,23b7adb9a3d8e4d5,1,True,False,1,0.5175923705101013,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::main:905-921::db8cb0f6,490d436871183ff5,1,True,True,0,0.0036941973958164454,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::resolve_device:43-59::a3055806,d907de50623323b1,1,True,False,1,0.13002260029315948,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::load_model:66-75::4265e9e7,e1e8fc2b53ffe4af,1,True,False,1,0.9757859110832214,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::generate_code:82-112::38f2ef88,04679203772db5b0,1,True,True,0,0.06627941876649857,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::syntax_ok:115-117::17d008d4,653380b93e31674c,1,True,True,0,0.017744483426213264,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::build_failure_feedback:124-137::1c56e718,f9248cd1eb206672,1,True,True,0,0.005119010806083679,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_baseline:140-167::60d0cd78,4f99c22c9ce213df,1,True,True,0,0.0017487503355368972,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,1252818dfd218189,1,False,False,1,0.7436542510986328,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::aggregate:236-263::aed16fba,ce85227550f0367e,1,True,True,0,0.0023224044125527143,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::save_predictions:266-270::d74204aa,f4eb4a3bf54abe54,1,True,True,0,0.00025536015164107084,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::save_summary_csv:277-283::db0ee36f,b8dfcad90044839e,1,True,True,0,0.09772292524576187,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::plot_metric:286-301::1fb502b9,f3941c66f47faf4c,1,True,False,1,0.9838759303092957,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::save_report:304-343::402b058d,837cfffa71146290,1,True,True,0,0.0013645471772179008,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,7246834bc2390d6a,1,False,False,1,0.733603835105896,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::run:9-11::a263418f,8187cbf14d2748ab,1,True,True,0,7.144223218347179e-06,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,dd4fe8267693d65f,1,False,False,1,0.5730499029159546,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::resolve_device_flags:78-82::f9ad318a,21b33350535959e1,1,True,False,1,0.4394418001174927,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,edc33528df404689,1,False,True,0,0.0013694833032786846,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::__init__:24-39::a437d904,dd9d7f9ab74f6a9c,1,True,False,1,0.9913794994354248,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::__getitem__:44-50::c0da7b8a,b82d36bb53beb5f5,1,True,True,0,0.08706261217594147,1.0,True,,,
+Zero-shot,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::__call__:57-75::e6d8f0c1,289209b50fff4480,1,True,False,1,0.5418437123298645,1.0,True,,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::dump_jsonl:32-36::29d5b62d,6d18f0834d6efa67,1,True,True,0,0.00015670014545321465,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::load_jsonl:39-41::20c393be,242374d149c14fd6,1,True,True,0,0.00013527121336665004,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_ordinary_refactor_prompt:48-64::4b1371eb,552c8d3cbbcda4b5,1,True,True,0,0.009768218733370304,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_guarded_refactor_prompt:67-85::1a745918,809bdf3379cc3d01,1,True,True,0,0.0006281640380620956,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_feedback_text:92-107::ae986563,e6952aaa03a6175b,1,True,False,1,0.14542007446289062,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_repair_prompt:110-133::46526e3c,6471c7c9de08371e,1,True,True,0,0.007675463333725929,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::extract_generated_code:136-147::873bfea7,d8e3a0ae4ae0969a,1,True,True,0,0.0020273050758987665,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::run_code_on_case:150-158::9b24b1d3,aac316d68bbcf60a,1,True,False,1,0.5959668159484863,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::find_first_failure:161-168::59679dd0,b070a95940479e32,1,True,False,1,0.18953606486320496,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,3f55b3170759f4b2,1,False,True,0,0.005361772142350674,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,87dfff22acd04dec,2,False,False,1,0.801105797290802,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,66632d412c8d5bd7,3,False,False,1,0.8081778287887573,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,ee3e9d96fc139023,4,False,False,1,0.8106188178062439,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,401235ed030bce78,5,False,False,1,0.8139187693595886,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,081238dd052200d6,6,False,False,1,0.8246282339096069,5.0,True,False,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,7a57d30f9aa015b3,7,False,True,0,0.8264415264129639,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,e6b66fcf39a521cc,8,False,True,0,0.8226488828659058,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,9cfcd96876be0d16,9,False,False,1,0.8326135277748108,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,14f5ccd88b5b8eed,10,False,False,1,0.8326667547225952,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,2401a913e5923fac,11,False,False,1,0.8327059149742126,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,7f1031ca0d300182,12,False,True,0,0.16893859207630157,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,dbd4e52047565c76,13,False,False,1,0.8628391623497009,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,cf30fb41c5399263,14,False,False,1,0.8782568573951721,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,69b64758168e1cdc,15,False,False,1,0.8856585621833801,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,2724d640d4096096,16,False,False,1,0.893462061882019,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,65b5c95a7cf5f982,17,False,False,1,0.904172420501709,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,979286908b29bdb5,18,False,True,0,0.0005818913923576474,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,eb27ada8f0aea764,19,False,False,1,0.9140745997428894,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,f5b30a946618ce69,20,False,False,1,0.9246821403503418,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,013c76751b60dcd6,21,False,False,1,0.9284610748291016,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_free_shipping_task:286-337::cdad0fed,c4219ee7f2ae32e5,1,True,False,1,0.8986856937408447,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_age_gate_task:340-385::610d8904,59448ef8c23b59c8,1,True,False,1,0.9446260333061218,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_lock_policy_task:388-433::3964c8d6,23e47a06f83cc2aa,1,True,True,0,0.006410359870642424,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,cc6058d9957a9c00,1,False,False,1,0.8842387795448303,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,b6b9d0b846369867,2,False,False,1,0.8867427706718445,5.0,True,False,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,f2551001a1a1830c,3,False,False,1,0.8927128314971924,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,6628c19c5714d867,4,False,False,1,0.8933998346328735,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,26298de9156e1f6f,5,False,False,1,0.9008657932281494,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,dd06acb0de9d1c64,6,False,True,0,0.8909276127815247,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,0ad9fd0de4628824,7,False,False,1,0.9016015529632568,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,ef6c467c4fc6cd42,8,False,False,1,0.8862985968589783,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,bafebd9aac48c47d,9,False,False,1,0.8879234790802002,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,f309a9c17f4d185c,10,False,True,0,0.08551725745201111,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,f3dc24e0e0b9da76,11,False,False,1,0.8945624232292175,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,33962fc29e8adce6,12,False,False,1,0.8740788102149963,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,b840382d7e80a135,13,False,False,1,0.859322190284729,5.0,True,False,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,aa796cee753c5551,14,False,False,1,0.8550615906715393,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,e2f09e417d7d9dfc,15,False,True,0,0.0013868390815332532,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,9fb1bb003b1f93c7,16,False,True,0,0.09196293354034424,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,49c6165f242b6f0a,17,False,False,1,0.7595812082290649,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,a0dce8990d85ac64,18,False,False,1,0.7460752725601196,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,872c9a698d4d1aaa,19,False,False,1,0.7061941623687744,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,606d2f9e49a2ddf4,20,False,True,0,0.677880048751831,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,2be128365b67fa0c,21,False,False,1,0.42424795031547546,5.0,True,False,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_quantity_bonus_task:500-546::57eb18d6,558c238155353bb3,1,True,False,1,0.9824938178062439,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_guard_task:549-596::261ff20f,7d8ab08f08c742e5,1,True,True,0,0.010768596082925797,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_email_normalization_task:599-635::88861f48,20ac10f6104e42ec,1,True,True,0,0.0001466590620111674,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_loyalty_tier_task:638-677::9e070311,bd0b0bf575b4dd63,1,False,False,1,0.8956935405731201,5.0,True,False,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_loyalty_tier_task:638-677::9e070311,cedf163bf64ceafc,2,True,False,1,0.8710498213768005,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_flag_conversion_task:680-717::2f4ef9fe,1f749cb74e8890b4,1,False,False,1,0.717090904712677,5.0,True,False,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_flag_conversion_task:680-717::2f4ef9fe,721ed16152ab72b7,2,True,False,1,0.723742663860321,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_undercovered_expedite_task:720-774::2c47ce64,439b6c536b33b4c0,1,False,False,1,0.9670820236206055,5.0,True,False,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_undercovered_expedite_task:720-774::2c47ce64,4793f105f4c20967,2,True,False,1,0.9615688323974609,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::choose_task_builder:792-808::6da28c40,0abfe19799952611,1,True,True,0,0.014067177660763264,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_task_split:811-817::f4fa3846,4b9bcb0779165502,1,True,True,0,0.0011306027881801128,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_repair_example:820-836::9fc6bdd7,4653e43663718bbd,1,True,False,1,0.730635941028595,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_sft_records:839-863::632a6e5c,3ce1e727fb1c9ac7,1,True,True,0,0.295439213514328,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::generate_benchmark:866-902::cd17f6c6,23b7adb9a3d8e4d5,1,True,False,1,0.5175923705101013,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::main:905-921::db8cb0f6,490d436871183ff5,1,True,True,0,0.0036941973958164454,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::resolve_device:43-59::a3055806,d907de50623323b1,1,True,False,1,0.13002260029315948,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::load_model:66-75::4265e9e7,e1e8fc2b53ffe4af,1,True,False,1,0.9757859110832214,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::generate_code:82-112::38f2ef88,04679203772db5b0,1,True,True,0,0.06627941876649857,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::syntax_ok:115-117::17d008d4,653380b93e31674c,1,True,True,0,0.017744483426213264,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::build_failure_feedback:124-137::1c56e718,f9248cd1eb206672,1,True,True,0,0.005119010806083679,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_baseline:140-167::60d0cd78,4f99c22c9ce213df,1,True,True,0,0.0017487503355368972,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,1252818dfd218189,1,False,False,1,0.7436542510986328,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,f16ba2f935980844,2,False,False,1,0.7282677888870239,5.0,True,False,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,b3bf574c4f92aee1,3,False,False,1,0.9956761002540588,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,425a3b15eb8c6089,4,False,False,1,0.7262123227119446,5.0,True,False,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,a7c65cbe3f5f482b,5,False,False,1,0.7249189019203186,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,58c853822c77cf2b,6,False,True,0,0.41734957695007324,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,bbf2b55305e86918,7,False,False,1,0.7315576672554016,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,15db3182b3573480,8,False,False,1,0.7359139323234558,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,d8035aa1d4ec4d0a,9,False,True,0,0.024126924574375153,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,2a8ce9ee9c97c22c,10,False,True,0,0.5737116932868958,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,b1baad8ea08f363b,11,False,False,1,0.7231225967407227,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,55f43d785a1aaf46,12,False,True,0,0.6995262503623962,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,c5a53a0b7cbe8b77,13,False,True,0,0.7135306596755981,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,d500fb9f7b81b6fa,14,False,False,1,0.7069120407104492,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,a6f97dfe9f3a5fcd,15,False,False,1,0.7101220488548279,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,706d8186c0b04029,16,False,False,1,0.6825724840164185,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,d9f4150c2247dc45,17,False,False,1,0.6816622614860535,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,dacd54a66aa16910,18,False,False,1,0.6766765713691711,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::aggregate:236-263::aed16fba,ce85227550f0367e,1,True,True,0,0.0023224044125527143,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::save_predictions:266-270::d74204aa,f4eb4a3bf54abe54,1,True,True,0,0.00025536015164107084,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::save_summary_csv:277-283::db0ee36f,b8dfcad90044839e,1,True,True,0,0.09772292524576187,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::plot_metric:286-301::1fb502b9,f3941c66f47faf4c,1,True,False,1,0.9838759303092957,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::save_report:304-343::402b058d,837cfffa71146290,1,True,True,0,0.0013645471772179008,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,7246834bc2390d6a,1,False,False,1,0.733603835105896,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,af22130e41bbbf1c,2,False,False,1,0.7325860857963562,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,16ccbecd656dcdf0,3,False,False,1,0.7300393581390381,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,f8d67d5ce624a4ca,4,False,False,1,0.5882886052131653,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,c35a57e17ecabc09,5,False,False,1,0.7186352610588074,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,a9b1d03d402c826e,6,False,True,0,0.6132166385650635,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,03ba3dafbab88bee,7,False,False,1,0.7107957601547241,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,02c6ec546bda8d97,8,False,False,1,0.7198789119720459,5.0,True,False,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,fa02f25420252238,9,False,False,1,0.7128918766975403,5.0,True,False,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,7feb10f16bff5071,10,False,False,1,0.5967384576797485,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,e66caa2b811d7ec0,11,False,False,1,0.7006211280822754,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,3bbfb8e5be378e54,12,False,True,0,0.663964033126831,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,ddd59ec99104e5f8,13,False,False,1,0.6967395544052124,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,1b37920dbf0d3359,14,False,False,1,0.5903190970420837,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,007d18851b32518a,15,False,True,0,0.6955170631408691,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,5ebdadd9f91b50ed,16,False,False,1,0.6714372634887695,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,895c7a09a967275b,17,False,False,1,0.6844810247421265,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,17fe988c8cc31895,18,False,False,1,0.5219188332557678,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,4c923afc9a23de19,19,False,True,0,0.0004125105624552816,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,75653b0c6983bbff,20,False,False,1,0.6841816902160645,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,3bd562eafe4ed387,21,False,True,0,0.432388573884964,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::run:9-11::a263418f,8187cbf14d2748ab,1,True,True,0,7.144223218347179e-06,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,dd4fe8267693d65f,1,False,False,1,0.5730499029159546,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,be2147769a8b5f92,2,False,False,1,0.5816435217857361,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,9c5b38603d3a7df8,3,False,True,0,0.2327965646982193,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,c53195cbebe7bed4,4,False,False,1,0.6061996817588806,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,b3f841e7f15e0e39,5,False,False,1,0.6034831404685974,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,c7b89af997ee2b3d,6,False,True,0,0.6036933064460754,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,8f9eae1736eb4d76,7,False,True,0,0.0035910082515329123,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,0e25173495331fe9,8,False,True,0,4.379872916615568e-05,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,a98994d3c9751b38,9,False,False,1,0.8544328212738037,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,637063dddc4c5f8a,10,False,False,1,0.9120351076126099,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,20b084406892e695,11,False,False,1,0.9190247654914856,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,6aae986fea195c09,12,False,False,1,0.9269185066223145,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,1df9bcbbf85b5ec5,13,False,False,1,0.9402962923049927,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,3c339ecbb3c25a96,14,False,False,1,0.9468981027603149,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,415716d7a80c9b0a,15,False,False,1,0.9491612911224365,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,cb839f7f02a44f9c,16,False,False,1,0.9552901387214661,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,e9c3ee985ae04504,17,False,False,1,0.9562657475471497,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,c3aee7c587795578,18,False,True,0,0.030230149626731873,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,8acbd963f37a1385,19,False,False,1,0.9518172144889832,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,93791bbd86d8b396,20,False,False,1,0.954980194568634,5.0,True,False,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,66cb19e0ddea485d,21,False,False,1,0.9502519965171814,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::resolve_device_flags:78-82::f9ad318a,21b33350535959e1,1,True,False,1,0.4394418001174927,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,edc33528df404689,1,False,True,0,0.0013694833032786846,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,9bb08c640889c7a4,2,False,False,1,0.5813174843788147,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,17a0304e8ca1bb05,3,False,True,0,0.5832579135894775,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,80d2c41e111138a0,4,False,False,1,0.38997676968574524,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,44e625f6b85e1995,5,False,True,0,0.5832371711730957,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,c91e38093929f79a,6,False,False,1,0.6181442141532898,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,536498be83e787db,7,False,False,1,0.6262282729148865,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,8741539365ebdab2,8,False,False,1,0.668660044670105,5.0,True,False,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,9a945c369f624ccb,9,False,False,1,0.6860642433166504,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,af428a288a1200ed,10,False,False,1,0.748622715473175,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,4c10ac684dcdb84f,11,False,False,1,0.7252447605133057,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,7cb4d32a3d9bdd9d,12,False,True,0,0.24447038769721985,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,d1132a8f3f11acc1,13,False,False,1,0.8134021759033203,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,b97ee27a367801b8,14,False,False,1,0.8323237299919128,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,d80c40d92da65dba,15,False,True,0,0.4612908959388733,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,d9962111a306c3da,16,False,False,1,0.3080633878707886,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,3ff90da256b8fbaf,17,False,False,1,0.9211848974227905,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,7abbb96e7c442567,18,False,False,1,0.9266462922096252,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,98dc5cbc21f984ea,19,False,False,1,0.9294549822807312,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,5d5aabd1723b6e18,20,False,False,1,0.9312664866447449,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,f88386bcb2645a19,21,False,False,1,0.9312859177589417,5.0,True,False,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::__init__:24-39::a437d904,dd9d7f9ab74f6a9c,1,False,False,1,0.9913794994354248,5.0,True,False,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::__init__:24-39::a437d904,56192980f73b0701,2,True,True,0,0.001400256296619773,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::__getitem__:44-50::c0da7b8a,b82d36bb53beb5f5,1,True,True,0,0.08706261217594147,5.0,True,True,,
+Tests only,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::__call__:57-75::e6d8f0c1,289209b50fff4480,1,True,False,1,0.5418437123298645,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::dump_jsonl:32-36::29d5b62d,6d18f0834d6efa67,1,True,True,0,0.00015670014545321465,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::load_jsonl:39-41::20c393be,242374d149c14fd6,1,True,True,0,0.00013527121336665004,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_ordinary_refactor_prompt:48-64::4b1371eb,552c8d3cbbcda4b5,1,True,True,0,0.009768218733370304,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_guarded_refactor_prompt:67-85::1a745918,809bdf3379cc3d01,1,True,True,0,0.0006281640380620956,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_feedback_text:92-107::ae986563,e6952aaa03a6175b,1,True,False,1,0.14542007446289062,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_repair_prompt:110-133::46526e3c,6471c7c9de08371e,1,True,True,0,0.007675463333725929,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::extract_generated_code:136-147::873bfea7,d8e3a0ae4ae0969a,1,True,True,0,0.0020273050758987665,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::run_code_on_case:150-158::9b24b1d3,aac316d68bbcf60a,1,True,False,1,0.5959668159484863,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::find_first_failure:161-168::59679dd0,b070a95940479e32,1,True,False,1,0.18953606486320496,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,3f55b3170759f4b2,1,False,True,0,0.005361772142350674,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,87dfff22acd04dec,2,False,False,1,0.801105797290802,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,66632d412c8d5bd7,3,False,False,1,0.8081778287887573,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_free_shipping_task:286-337::cdad0fed,c4219ee7f2ae32e5,1,True,False,1,0.8986856937408447,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_age_gate_task:340-385::610d8904,59448ef8c23b59c8,1,True,False,1,0.9446260333061218,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_lock_policy_task:388-433::3964c8d6,23e47a06f83cc2aa,1,True,True,0,0.006410359870642424,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,cc6058d9957a9c00,1,False,False,1,0.8842387795448303,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,b6b9d0b846369867,2,False,False,1,0.8867427706718445,5.0,True,False,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,f2551001a1a1830c,3,False,False,1,0.8927128314971924,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_quantity_bonus_task:500-546::57eb18d6,558c238155353bb3,1,True,False,1,0.9824938178062439,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_guard_task:549-596::261ff20f,7d8ab08f08c742e5,1,True,True,0,0.010768596082925797,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_email_normalization_task:599-635::88861f48,20ac10f6104e42ec,1,True,True,0,0.0001466590620111674,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_loyalty_tier_task:638-677::9e070311,bd0b0bf575b4dd63,1,False,False,1,0.8956935405731201,5.0,True,False,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_loyalty_tier_task:638-677::9e070311,cedf163bf64ceafc,2,True,False,1,0.8710498213768005,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_flag_conversion_task:680-717::2f4ef9fe,1f749cb74e8890b4,1,False,False,1,0.717090904712677,5.0,True,False,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_flag_conversion_task:680-717::2f4ef9fe,721ed16152ab72b7,2,True,False,1,0.723742663860321,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_undercovered_expedite_task:720-774::2c47ce64,439b6c536b33b4c0,1,False,False,1,0.9670820236206055,5.0,True,False,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_undercovered_expedite_task:720-774::2c47ce64,4793f105f4c20967,2,True,False,1,0.9615688323974609,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::choose_task_builder:792-808::6da28c40,0abfe19799952611,1,True,True,0,0.014067177660763264,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_task_split:811-817::f4fa3846,4b9bcb0779165502,1,True,True,0,0.0011306027881801128,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_repair_example:820-836::9fc6bdd7,4653e43663718bbd,1,True,False,1,0.730635941028595,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_sft_records:839-863::632a6e5c,3ce1e727fb1c9ac7,1,True,True,0,0.295439213514328,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::generate_benchmark:866-902::cd17f6c6,23b7adb9a3d8e4d5,1,True,False,1,0.5175923705101013,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::main:905-921::db8cb0f6,490d436871183ff5,1,True,True,0,0.0036941973958164454,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::resolve_device:43-59::a3055806,d907de50623323b1,1,True,False,1,0.13002260029315948,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::load_model:66-75::4265e9e7,e1e8fc2b53ffe4af,1,True,False,1,0.9757859110832214,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::generate_code:82-112::38f2ef88,04679203772db5b0,1,True,True,0,0.06627941876649857,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::syntax_ok:115-117::17d008d4,653380b93e31674c,1,True,True,0,0.017744483426213264,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::build_failure_feedback:124-137::1c56e718,f9248cd1eb206672,1,True,True,0,0.005119010806083679,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_baseline:140-167::60d0cd78,4f99c22c9ce213df,1,True,True,0,0.0017487503355368972,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,1252818dfd218189,1,False,False,1,0.7436542510986328,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,f16ba2f935980844,2,False,False,1,0.7282677888870239,5.0,True,False,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,b3bf574c4f92aee1,3,False,False,1,0.9956761002540588,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::aggregate:236-263::aed16fba,ce85227550f0367e,1,True,True,0,0.0023224044125527143,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::save_predictions:266-270::d74204aa,f4eb4a3bf54abe54,1,True,True,0,0.00025536015164107084,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::save_summary_csv:277-283::db0ee36f,b8dfcad90044839e,1,True,True,0,0.09772292524576187,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::plot_metric:286-301::1fb502b9,f3941c66f47faf4c,1,True,False,1,0.9838759303092957,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::save_report:304-343::402b058d,837cfffa71146290,1,True,True,0,0.0013645471772179008,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,7246834bc2390d6a,1,False,False,1,0.733603835105896,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,af22130e41bbbf1c,2,False,False,1,0.7325860857963562,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,16ccbecd656dcdf0,3,False,False,1,0.7300393581390381,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::run:9-11::a263418f,8187cbf14d2748ab,1,True,True,0,7.144223218347179e-06,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,dd4fe8267693d65f,1,False,False,1,0.5730499029159546,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,be2147769a8b5f92,2,False,False,1,0.5816435217857361,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,9c5b38603d3a7df8,3,False,True,0,0.2327965646982193,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::resolve_device_flags:78-82::f9ad318a,21b33350535959e1,1,True,False,1,0.4394418001174927,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,edc33528df404689,1,False,True,0,0.0013694833032786846,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,9bb08c640889c7a4,2,False,False,1,0.5813174843788147,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,17a0304e8ca1bb05,3,False,True,0,0.5832579135894775,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::__init__:24-39::a437d904,dd9d7f9ab74f6a9c,1,False,False,1,0.9913794994354248,5.0,True,False,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::__init__:24-39::a437d904,56192980f73b0701,2,True,True,0,0.001400256296619773,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::__getitem__:44-50::c0da7b8a,b82d36bb53beb5f5,1,True,True,0,0.08706261217594147,5.0,True,True,,
+Self-debug + tests,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::__call__:57-75::e6d8f0c1,289209b50fff4480,1,True,False,1,0.5418437123298645,5.0,True,True,,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::dump_jsonl:32-36::29d5b62d,6d18f0834d6efa67,1,True,True,0,0.00015670014545321465,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::load_jsonl:39-41::20c393be,242374d149c14fd6,1,True,True,0,0.00013527121336665004,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_ordinary_refactor_prompt:48-64::4b1371eb,552c8d3cbbcda4b5,1,True,True,0,0.009768218733370304,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_guarded_refactor_prompt:67-85::1a745918,809bdf3379cc3d01,1,True,True,0,0.0006281640380620956,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_feedback_text:92-107::ae986563,e6952aaa03a6175b,1,False,False,1,0.14542007446289062,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_feedback_text:92-107::ae986563,90739309833727b2,2,True,True,0,0.006765097379684448,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_repair_prompt:110-133::46526e3c,6471c7c9de08371e,1,True,True,0,0.007675463333725929,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::extract_generated_code:136-147::873bfea7,d8e3a0ae4ae0969a,1,True,True,0,0.0020273050758987665,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::run_code_on_case:150-158::9b24b1d3,aac316d68bbcf60a,1,False,False,1,0.5959668159484863,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::run_code_on_case:150-158::9b24b1d3,165eda3010e55030,2,True,True,0,0.03840286657214165,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::find_first_failure:161-168::59679dd0,b070a95940479e32,1,True,False,1,0.18953606486320496,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,3f55b3170759f4b2,1,False,True,0,0.005361772142350674,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,87dfff22acd04dec,2,False,False,1,0.801105797290802,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,66632d412c8d5bd7,3,False,False,1,0.8081778287887573,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,ee3e9d96fc139023,4,False,False,1,0.8106188178062439,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,401235ed030bce78,5,False,False,1,0.8139187693595886,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,081238dd052200d6,6,False,False,1,0.8246282339096069,5.0,True,False,,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,7a57d30f9aa015b3,7,False,True,0,0.8264415264129639,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,e6b66fcf39a521cc,8,False,True,0,0.8226488828659058,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,9cfcd96876be0d16,9,False,False,1,0.8326135277748108,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,14f5ccd88b5b8eed,10,False,False,1,0.8326667547225952,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,2401a913e5923fac,11,False,False,1,0.8327059149742126,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,7f1031ca0d300182,12,False,True,0,0.16893859207630157,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,dbd4e52047565c76,13,False,False,1,0.8628391623497009,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,cf30fb41c5399263,14,False,False,1,0.8782568573951721,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,69b64758168e1cdc,15,False,False,1,0.8856585621833801,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,2724d640d4096096,16,False,False,1,0.893462061882019,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,65b5c95a7cf5f982,17,False,False,1,0.904172420501709,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,979286908b29bdb5,18,False,True,0,0.0005818913923576474,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,eb27ada8f0aea764,19,False,False,1,0.9140745997428894,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,f5b30a946618ce69,20,False,False,1,0.9246821403503418,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,013c76751b60dcd6,21,False,False,1,0.9284610748291016,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_free_shipping_task:286-337::cdad0fed,c4219ee7f2ae32e5,1,False,False,1,0.8986856937408447,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_free_shipping_task:286-337::cdad0fed,0d31e226fdd50010,2,True,True,0,0.04431656748056412,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_age_gate_task:340-385::610d8904,59448ef8c23b59c8,1,False,False,1,0.9446260333061218,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_age_gate_task:340-385::610d8904,66ae235df9020e8f,2,False,False,1,0.9512582421302795,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_age_gate_task:340-385::610d8904,34c676c6f6e04ed3,3,False,False,1,0.9511204957962036,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_age_gate_task:340-385::610d8904,79f5f163233cda94,4,False,False,1,0.949120819568634,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_age_gate_task:340-385::610d8904,a8120c988ea37518,5,True,True,0,0.1735096126794815,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_lock_policy_task:388-433::3964c8d6,23e47a06f83cc2aa,1,True,True,0,0.006410359870642424,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,cc6058d9957a9c00,1,False,False,1,0.8842387795448303,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,b6b9d0b846369867,2,False,False,1,0.8867427706718445,5.0,True,False,,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,f2551001a1a1830c,3,False,False,1,0.8927128314971924,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,6628c19c5714d867,4,False,False,1,0.8933998346328735,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,26298de9156e1f6f,5,False,False,1,0.9008657932281494,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,dd06acb0de9d1c64,6,False,True,0,0.8909276127815247,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,0ad9fd0de4628824,7,False,False,1,0.9016015529632568,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,ef6c467c4fc6cd42,8,False,False,1,0.8862985968589783,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,bafebd9aac48c47d,9,False,False,1,0.8879234790802002,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,f309a9c17f4d185c,10,False,True,0,0.08551725745201111,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,f3dc24e0e0b9da76,11,False,False,1,0.8945624232292175,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,33962fc29e8adce6,12,False,False,1,0.8740788102149963,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,b840382d7e80a135,13,False,False,1,0.859322190284729,5.0,True,False,,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,aa796cee753c5551,14,False,False,1,0.8550615906715393,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,e2f09e417d7d9dfc,15,False,True,0,0.0013868390815332532,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,9fb1bb003b1f93c7,16,False,True,0,0.09196293354034424,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,49c6165f242b6f0a,17,False,False,1,0.7595812082290649,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,a0dce8990d85ac64,18,False,False,1,0.7460752725601196,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,872c9a698d4d1aaa,19,False,False,1,0.7061941623687744,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,606d2f9e49a2ddf4,20,False,True,0,0.677880048751831,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,2be128365b67fa0c,21,False,False,1,0.42424795031547546,5.0,True,False,,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_quantity_bonus_task:500-546::57eb18d6,558c238155353bb3,1,False,False,1,0.9824938178062439,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_quantity_bonus_task:500-546::57eb18d6,7f09ed9a066484df,2,False,False,1,0.9807547330856323,5.0,True,False,,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_quantity_bonus_task:500-546::57eb18d6,048590894b2069da,3,False,False,1,0.9806338548660278,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_quantity_bonus_task:500-546::57eb18d6,ec9d63f4aefc1867,4,False,False,1,0.8952557444572449,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_quantity_bonus_task:500-546::57eb18d6,390d2d630677cfe2,5,False,False,1,0.9044003486633301,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_quantity_bonus_task:500-546::57eb18d6,33e243a5af9b0061,6,False,False,1,0.8767399787902832,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_quantity_bonus_task:500-546::57eb18d6,4bf0eb3e930faf1a,7,False,False,1,0.9664818048477173,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_quantity_bonus_task:500-546::57eb18d6,184812e9b4d53fad,8,False,False,1,0.7605898380279541,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_quantity_bonus_task:500-546::57eb18d6,94d125b5ac85afdf,9,True,True,0,0.4527200758457184,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_guard_task:549-596::261ff20f,7d8ab08f08c742e5,1,True,True,0,0.010768596082925797,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_email_normalization_task:599-635::88861f48,20ac10f6104e42ec,1,True,True,0,0.0001466590620111674,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_loyalty_tier_task:638-677::9e070311,bd0b0bf575b4dd63,1,False,False,1,0.8956935405731201,5.0,True,False,,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_loyalty_tier_task:638-677::9e070311,cedf163bf64ceafc,2,False,False,1,0.8710498213768005,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_loyalty_tier_task:638-677::9e070311,71dbd84168de5f2b,3,False,False,1,0.8987671136856079,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_loyalty_tier_task:638-677::9e070311,c95727b7f96808d4,4,False,False,1,0.8884692788124084,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_loyalty_tier_task:638-677::9e070311,e3aa831308fd40af,5,True,True,0,0.8851343989372253,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_flag_conversion_task:680-717::2f4ef9fe,1f749cb74e8890b4,1,False,False,1,0.717090904712677,5.0,True,False,,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_flag_conversion_task:680-717::2f4ef9fe,721ed16152ab72b7,2,True,False,1,0.723742663860321,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_undercovered_expedite_task:720-774::2c47ce64,439b6c536b33b4c0,1,False,False,1,0.9670820236206055,5.0,True,False,,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_undercovered_expedite_task:720-774::2c47ce64,4793f105f4c20967,2,False,False,1,0.9615688323974609,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_undercovered_expedite_task:720-774::2c47ce64,8cda75d6cf883396,3,True,True,0,0.0016905198572203517,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::choose_task_builder:792-808::6da28c40,0abfe19799952611,1,True,True,0,0.014067177660763264,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_task_split:811-817::f4fa3846,4b9bcb0779165502,1,True,True,0,0.0011306027881801128,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_repair_example:820-836::9fc6bdd7,4653e43663718bbd,1,True,False,1,0.730635941028595,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_sft_records:839-863::632a6e5c,3ce1e727fb1c9ac7,1,True,True,0,0.295439213514328,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::generate_benchmark:866-902::cd17f6c6,23b7adb9a3d8e4d5,1,True,False,1,0.5175923705101013,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::main:905-921::db8cb0f6,490d436871183ff5,1,True,True,0,0.0036941973958164454,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::resolve_device:43-59::a3055806,d907de50623323b1,1,False,False,1,0.13002260029315948,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::resolve_device:43-59::a3055806,20abc0c9ce8772b3,2,True,True,0,0.00010396182187832892,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::load_model:66-75::4265e9e7,e1e8fc2b53ffe4af,1,False,False,1,0.9757859110832214,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::load_model:66-75::4265e9e7,d1fb118fe3fa182e,2,True,True,0,0.00046560814371332526,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::generate_code:82-112::38f2ef88,04679203772db5b0,1,True,True,0,0.06627941876649857,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::syntax_ok:115-117::17d008d4,653380b93e31674c,1,True,True,0,0.017744483426213264,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::build_failure_feedback:124-137::1c56e718,f9248cd1eb206672,1,True,True,0,0.005119010806083679,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_baseline:140-167::60d0cd78,4f99c22c9ce213df,1,True,True,0,0.0017487503355368972,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,1252818dfd218189,1,False,False,1,0.7436542510986328,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,f16ba2f935980844,2,False,False,1,0.7282677888870239,5.0,True,False,,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,b3bf574c4f92aee1,3,False,False,1,0.9956761002540588,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,425a3b15eb8c6089,4,False,False,1,0.7262123227119446,5.0,True,False,,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,a7c65cbe3f5f482b,5,False,False,1,0.7249189019203186,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,58c853822c77cf2b,6,False,True,0,0.41734957695007324,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,bbf2b55305e86918,7,False,False,1,0.7315576672554016,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,15db3182b3573480,8,False,False,1,0.7359139323234558,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,d8035aa1d4ec4d0a,9,False,True,0,0.024126924574375153,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,2a8ce9ee9c97c22c,10,False,True,0,0.5737116932868958,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,b1baad8ea08f363b,11,False,False,1,0.7231225967407227,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,55f43d785a1aaf46,12,False,True,0,0.6995262503623962,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,c5a53a0b7cbe8b77,13,False,True,0,0.7135306596755981,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,d500fb9f7b81b6fa,14,False,False,1,0.7069120407104492,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,a6f97dfe9f3a5fcd,15,False,False,1,0.7101220488548279,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,706d8186c0b04029,16,False,False,1,0.6825724840164185,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,d9f4150c2247dc45,17,False,False,1,0.6816622614860535,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,dacd54a66aa16910,18,False,False,1,0.6766765713691711,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::aggregate:236-263::aed16fba,ce85227550f0367e,1,True,True,0,0.0023224044125527143,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::save_predictions:266-270::d74204aa,f4eb4a3bf54abe54,1,True,True,0,0.00025536015164107084,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::save_summary_csv:277-283::db0ee36f,b8dfcad90044839e,1,True,True,0,0.09772292524576187,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::plot_metric:286-301::1fb502b9,f3941c66f47faf4c,1,False,False,1,0.9838759303092957,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::plot_metric:286-301::1fb502b9,ed492b66d60c2403,2,True,True,0,0.025115104392170906,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::save_report:304-343::402b058d,837cfffa71146290,1,True,True,0,0.0013645471772179008,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,7246834bc2390d6a,1,False,False,1,0.733603835105896,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,af22130e41bbbf1c,2,False,False,1,0.7325860857963562,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,16ccbecd656dcdf0,3,False,False,1,0.7300393581390381,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,f8d67d5ce624a4ca,4,False,False,1,0.5882886052131653,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,c35a57e17ecabc09,5,False,False,1,0.7186352610588074,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,a9b1d03d402c826e,6,False,True,0,0.6132166385650635,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,03ba3dafbab88bee,7,False,False,1,0.7107957601547241,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,02c6ec546bda8d97,8,False,False,1,0.7198789119720459,5.0,True,False,,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,fa02f25420252238,9,False,False,1,0.7128918766975403,5.0,True,False,,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,7feb10f16bff5071,10,False,False,1,0.5967384576797485,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,e66caa2b811d7ec0,11,False,False,1,0.7006211280822754,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,3bbfb8e5be378e54,12,False,True,0,0.663964033126831,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,ddd59ec99104e5f8,13,False,False,1,0.6967395544052124,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,1b37920dbf0d3359,14,False,False,1,0.5903190970420837,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,007d18851b32518a,15,False,True,0,0.6955170631408691,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,5ebdadd9f91b50ed,16,False,False,1,0.6714372634887695,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,895c7a09a967275b,17,False,False,1,0.6844810247421265,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,17fe988c8cc31895,18,False,False,1,0.5219188332557678,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,4c923afc9a23de19,19,False,True,0,0.0004125105624552816,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,75653b0c6983bbff,20,False,False,1,0.6841816902160645,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,3bd562eafe4ed387,21,False,True,0,0.432388573884964,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::run:9-11::a263418f,8187cbf14d2748ab,1,True,True,0,7.144223218347179e-06,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,dd4fe8267693d65f,1,False,False,1,0.5730499029159546,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,be2147769a8b5f92,2,False,False,1,0.5816435217857361,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,9c5b38603d3a7df8,3,False,True,0,0.2327965646982193,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,c53195cbebe7bed4,4,False,False,1,0.6061996817588806,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,b3f841e7f15e0e39,5,False,False,1,0.6034831404685974,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,c7b89af997ee2b3d,6,False,True,0,0.6036933064460754,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,8f9eae1736eb4d76,7,False,True,0,0.0035910082515329123,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,0e25173495331fe9,8,False,True,0,4.379872916615568e-05,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,a98994d3c9751b38,9,False,False,1,0.8544328212738037,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,637063dddc4c5f8a,10,False,False,1,0.9120351076126099,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,20b084406892e695,11,False,False,1,0.9190247654914856,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,6aae986fea195c09,12,False,False,1,0.9269185066223145,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,1df9bcbbf85b5ec5,13,False,False,1,0.9402962923049927,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,3c339ecbb3c25a96,14,False,False,1,0.9468981027603149,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,415716d7a80c9b0a,15,False,False,1,0.9491612911224365,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,cb839f7f02a44f9c,16,False,False,1,0.9552901387214661,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,e9c3ee985ae04504,17,False,False,1,0.9562657475471497,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,c3aee7c587795578,18,False,True,0,0.030230149626731873,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,8acbd963f37a1385,19,False,False,1,0.9518172144889832,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,93791bbd86d8b396,20,False,False,1,0.954980194568634,5.0,True,False,,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,66cb19e0ddea485d,21,False,False,1,0.9502519965171814,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::resolve_device_flags:78-82::f9ad318a,21b33350535959e1,1,False,False,1,0.4394418001174927,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::resolve_device_flags:78-82::f9ad318a,b31f7296ddb0ab5c,2,False,False,1,0.16533276438713074,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::resolve_device_flags:78-82::f9ad318a,dc7d9c002aff7b00,3,True,True,0,0.24633200466632843,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,edc33528df404689,1,False,True,0,0.0013694833032786846,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,9bb08c640889c7a4,2,False,False,1,0.5813174843788147,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,17a0304e8ca1bb05,3,False,True,0,0.5832579135894775,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,80d2c41e111138a0,4,False,False,1,0.38997676968574524,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,44e625f6b85e1995,5,False,True,0,0.5832371711730957,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,c91e38093929f79a,6,False,False,1,0.6181442141532898,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,536498be83e787db,7,False,False,1,0.6262282729148865,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,8741539365ebdab2,8,False,False,1,0.668660044670105,5.0,True,False,,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,9a945c369f624ccb,9,False,False,1,0.6860642433166504,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,af428a288a1200ed,10,False,False,1,0.748622715473175,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,4c10ac684dcdb84f,11,False,False,1,0.7252447605133057,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,7cb4d32a3d9bdd9d,12,False,True,0,0.24447038769721985,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,d1132a8f3f11acc1,13,False,False,1,0.8134021759033203,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,b97ee27a367801b8,14,False,False,1,0.8323237299919128,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,d80c40d92da65dba,15,False,True,0,0.4612908959388733,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,d9962111a306c3da,16,False,False,1,0.3080633878707886,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,3ff90da256b8fbaf,17,False,False,1,0.9211848974227905,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,7abbb96e7c442567,18,False,False,1,0.9266462922096252,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,98dc5cbc21f984ea,19,False,False,1,0.9294549822807312,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,5d5aabd1723b6e18,20,False,False,1,0.9312664866447449,30.0,True,True,True,False
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,f88386bcb2645a19,21,False,False,1,0.9312859177589417,5.0,True,False,,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::__init__:24-39::a437d904,dd9d7f9ab74f6a9c,1,False,False,1,0.9913794994354248,5.0,True,False,,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::__init__:24-39::a437d904,56192980f73b0701,2,True,True,0,0.001400256296619773,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::__getitem__:44-50::c0da7b8a,b82d36bb53beb5f5,1,True,True,0,0.08706261217594147,30.0,True,True,True,True
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::__call__:57-75::e6d8f0c1,289209b50fff4480,1,False,False,1,0.5418437123298645,14.0,True,True,False,
+Full without risk model,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::__call__:57-75::e6d8f0c1,0d050b6827c20d7f,2,True,True,0,0.44029274582862854,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::dump_jsonl:32-36::29d5b62d,6d18f0834d6efa67,1,True,True,0,0.00015670014545321465,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::load_jsonl:39-41::20c393be,242374d149c14fd6,1,True,True,0,0.00013527121336665004,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_ordinary_refactor_prompt:48-64::4b1371eb,8fc12e8f310ccb9e,1,True,True,0,0.0010325266048312187,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_guarded_refactor_prompt:67-85::1a745918,809bdf3379cc3d01,1,True,True,0,0.0006281640380620956,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_feedback_text:92-107::ae986563,c21da27dc64d90df,1,True,True,0,0.0010111259762197733,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_repair_prompt:110-133::46526e3c,3d44f8b7e6669464,1,True,True,0,0.0006697317585349083,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::extract_generated_code:136-147::873bfea7,52f4ac10e05da943,1,True,True,0,0.0003541088954079896,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::run_code_on_case:150-158::9b24b1d3,dbad7c8c793db539,1,True,True,0,0.0004916965845040977,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::find_first_failure:161-168::59679dd0,3acb2badc1020a58,1,True,True,0,0.00016476964810863137,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,979286908b29bdb5,1,False,True,0,0.0005818913923576474,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,3f55b3170759f4b2,2,False,True,0,0.005361772142350674,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,7f1031ca0d300182,3,False,True,0,0.16893859207630157,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,87dfff22acd04dec,4,False,False,1,0.801105797290802,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,66632d412c8d5bd7,5,False,False,1,0.8081778287887573,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,ee3e9d96fc139023,6,False,False,1,0.8106188178062439,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,401235ed030bce78,7,False,False,1,0.8139187693595886,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,e6b66fcf39a521cc,8,False,True,0,0.8226488828659058,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,081238dd052200d6,9,False,False,1,0.8246282339096069,5.0,True,False,,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,7a57d30f9aa015b3,10,False,True,0,0.8264415264129639,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,9cfcd96876be0d16,11,False,False,1,0.8326135277748108,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,14f5ccd88b5b8eed,12,False,False,1,0.8326667547225952,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,2401a913e5923fac,13,False,False,1,0.8327059149742126,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,dbd4e52047565c76,14,False,False,1,0.8628391623497009,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,cf30fb41c5399263,15,False,False,1,0.8782568573951721,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,69b64758168e1cdc,16,False,False,1,0.8856585621833801,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,2724d640d4096096,17,False,False,1,0.893462061882019,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,65b5c95a7cf5f982,18,False,False,1,0.904172420501709,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,eb27ada8f0aea764,19,False,False,1,0.9140745997428894,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,f5b30a946618ce69,20,False,False,1,0.9246821403503418,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_threshold_task:179-283::8da6c0ea,013c76751b60dcd6,21,False,False,1,0.9284610748291016,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_free_shipping_task:286-337::cdad0fed,1d8cbdf1b2a16c5e,1,True,True,0,0.0003290795721113682,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_age_gate_task:340-385::610d8904,03a393c5583a2780,1,True,True,0,0.0038049821741878986,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_lock_policy_task:388-433::3964c8d6,75a2835088e0d856,1,True,True,0,0.0006515823770314455,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,e2f09e417d7d9dfc,1,False,True,0,0.0013868390815332532,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,f309a9c17f4d185c,2,False,True,0,0.08551725745201111,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,9fb1bb003b1f93c7,3,False,True,0,0.09196293354034424,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,2be128365b67fa0c,4,False,False,1,0.42424795031547546,5.0,True,False,,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,606d2f9e49a2ddf4,5,False,True,0,0.677880048751831,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,872c9a698d4d1aaa,6,False,False,1,0.7061941623687744,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,a0dce8990d85ac64,7,False,False,1,0.7460752725601196,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,49c6165f242b6f0a,8,False,False,1,0.7595812082290649,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,aa796cee753c5551,9,False,False,1,0.8550615906715393,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,b840382d7e80a135,10,False,False,1,0.859322190284729,5.0,True,False,,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,33962fc29e8adce6,11,False,False,1,0.8740788102149963,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,cc6058d9957a9c00,12,False,False,1,0.8842387795448303,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,ef6c467c4fc6cd42,13,False,False,1,0.8862985968589783,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,b6b9d0b846369867,14,False,False,1,0.8867427706718445,5.0,True,False,,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,bafebd9aac48c47d,15,False,False,1,0.8879234790802002,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,dd06acb0de9d1c64,16,False,True,0,0.8909276127815247,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,f2551001a1a1830c,17,False,False,1,0.8927128314971924,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,6628c19c5714d867,18,False,False,1,0.8933998346328735,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,f3dc24e0e0b9da76,19,False,False,1,0.8945624232292175,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,26298de9156e1f6f,20,False,False,1,0.9008657932281494,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_discount_cap_task:436-497::3c98b439,0ad9fd0de4628824,21,False,False,1,0.9016015529632568,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_quantity_bonus_task:500-546::57eb18d6,300b7ba7859a5a09,1,True,True,0,0.003091713646426797,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_guard_task:549-596::261ff20f,e2b6681b8d06233d,1,True,True,0,0.000803450180683285,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_email_normalization_task:599-635::88861f48,20ac10f6104e42ec,1,True,True,0,0.0001466590620111674,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_loyalty_tier_task:638-677::9e070311,a40b4fa9ac4fcb0f,1,True,True,0,0.0012692706659436226,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_flag_conversion_task:680-717::2f4ef9fe,13abfc16a7028234,1,True,True,0,0.0013449955731630325,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::make_undercovered_expedite_task:720-774::2c47ce64,8cda75d6cf883396,1,True,True,0,0.0016905198572203517,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::choose_task_builder:792-808::6da28c40,2a9db0e614747993,1,True,True,0,0.0006421867874450982,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_task_split:811-817::f4fa3846,1a3e2e52a3e72e87,1,True,True,0,0.00019641978724393994,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_repair_example:820-836::9fc6bdd7,9cad114909e101ac,1,True,True,0,0.0006811532657593489,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::build_sft_records:839-863::632a6e5c,b85139e33495c97c,1,True,True,0,0.000743237731512636,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::generate_benchmark:866-902::cd17f6c6,abb0f036230a5946,1,True,True,0,0.0002747106773313135,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/benchmark.py::main:905-921::db8cb0f6,3a826e131c3d4045,1,True,True,0,0.0001050737701007165,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::resolve_device:43-59::a3055806,20abc0c9ce8772b3,1,True,True,0,0.00010396182187832892,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::load_model:66-75::4265e9e7,10780ae3a6edd747,1,True,True,0,0.00023302384943235666,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::generate_code:82-112::38f2ef88,6b83bf0b5f205754,1,True,True,0,0.009388851001858711,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::syntax_ok:115-117::17d008d4,214795b639e2fe18,1,True,True,0,0.0018104953924193978,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::build_failure_feedback:124-137::1c56e718,658edd221c268c4e,1,True,True,0,0.0006044601323083043,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_baseline:140-167::60d0cd78,4f99c22c9ce213df,1,True,True,0,0.0017487503355368972,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,d8035aa1d4ec4d0a,1,False,True,0,0.024126924574375153,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,58c853822c77cf2b,2,False,True,0,0.41734957695007324,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,2a8ce9ee9c97c22c,3,False,True,0,0.5737116932868958,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,dacd54a66aa16910,4,False,False,1,0.6766765713691711,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,d9f4150c2247dc45,5,False,False,1,0.6816622614860535,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,706d8186c0b04029,6,False,False,1,0.6825724840164185,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,55f43d785a1aaf46,7,False,True,0,0.6995262503623962,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,d500fb9f7b81b6fa,8,False,False,1,0.7069120407104492,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,a6f97dfe9f3a5fcd,9,False,False,1,0.7101220488548279,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,c5a53a0b7cbe8b77,10,False,True,0,0.7135306596755981,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,b1baad8ea08f363b,11,False,False,1,0.7231225967407227,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,a7c65cbe3f5f482b,12,False,False,1,0.7249189019203186,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,425a3b15eb8c6089,13,False,False,1,0.7262123227119446,5.0,True,False,,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,f16ba2f935980844,14,False,False,1,0.7282677888870239,5.0,True,False,,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,bbf2b55305e86918,15,False,False,1,0.7315576672554016,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,15db3182b3573480,16,False,False,1,0.7359139323234558,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,1252818dfd218189,17,False,False,1,0.7436542510986328,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::run_refactorguard:170-233::d2f884ec,b3bf574c4f92aee1,18,False,False,1,0.9956761002540588,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::aggregate:236-263::aed16fba,ddab85042e687f9e,1,True,True,0,0.000549806107301265,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::save_predictions:266-270::d74204aa,f4eb4a3bf54abe54,1,True,True,0,0.00025536015164107084,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::save_summary_csv:277-283::db0ee36f,f1a641305d165ee6,1,True,True,0,0.0007070009596645832,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::plot_metric:286-301::1fb502b9,0b78389b1c16f7d0,1,True,True,0,0.00285264546982944,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::save_report:304-343::402b058d,837cfffa71146290,1,True,True,0,0.0013645471772179008,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,4c923afc9a23de19,1,False,True,0,0.0004125105624552816,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,3bd562eafe4ed387,2,False,True,0,0.432388573884964,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,17fe988c8cc31895,3,False,False,1,0.5219188332557678,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,f8d67d5ce624a4ca,4,False,False,1,0.5882886052131653,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,1b37920dbf0d3359,5,False,False,1,0.5903190970420837,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,7feb10f16bff5071,6,False,False,1,0.5967384576797485,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,a9b1d03d402c826e,7,False,True,0,0.6132166385650635,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,3bbfb8e5be378e54,8,False,True,0,0.663964033126831,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,5ebdadd9f91b50ed,9,False,False,1,0.6714372634887695,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,75653b0c6983bbff,10,False,False,1,0.6841816902160645,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,895c7a09a967275b,11,False,False,1,0.6844810247421265,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,007d18851b32518a,12,False,True,0,0.6955170631408691,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,ddd59ec99104e5f8,13,False,False,1,0.6967395544052124,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,e66caa2b811d7ec0,14,False,False,1,0.7006211280822754,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,03ba3dafbab88bee,15,False,False,1,0.7107957601547241,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,fa02f25420252238,16,False,False,1,0.7128918766975403,5.0,True,False,,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,c35a57e17ecabc09,17,False,False,1,0.7186352610588074,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,02c6ec546bda8d97,18,False,False,1,0.7198789119720459,5.0,True,False,,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,16ccbecd656dcdf0,19,False,False,1,0.7300393581390381,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,af22130e41bbbf1c,20,False,False,1,0.7325860857963562,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/evaluate_gpt2.py::main:346-423::2dea555e,7246834bc2390d6a,21,False,False,1,0.733603835105896,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::run:9-11::a263418f,8187cbf14d2748ab,1,True,True,0,7.144223218347179e-06,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,0e25173495331fe9,1,False,True,0,4.379872916615568e-05,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,8f9eae1736eb4d76,2,False,True,0,0.0035910082515329123,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,c3aee7c587795578,3,False,True,0,0.030230149626731873,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,9c5b38603d3a7df8,4,False,True,0,0.2327965646982193,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,dd4fe8267693d65f,5,False,False,1,0.5730499029159546,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,be2147769a8b5f92,6,False,False,1,0.5816435217857361,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,b3f841e7f15e0e39,7,False,False,1,0.6034831404685974,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,c7b89af997ee2b3d,8,False,True,0,0.6036933064460754,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,c53195cbebe7bed4,9,False,False,1,0.6061996817588806,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,a98994d3c9751b38,10,False,False,1,0.8544328212738037,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,637063dddc4c5f8a,11,False,False,1,0.9120351076126099,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,20b084406892e695,12,False,False,1,0.9190247654914856,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,6aae986fea195c09,13,False,False,1,0.9269185066223145,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,1df9bcbbf85b5ec5,14,False,False,1,0.9402962923049927,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,3c339ecbb3c25a96,15,False,False,1,0.9468981027603149,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,415716d7a80c9b0a,16,False,False,1,0.9491612911224365,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,66cb19e0ddea485d,17,False,False,1,0.9502519965171814,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,8acbd963f37a1385,18,False,False,1,0.9518172144889832,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,93791bbd86d8b396,19,False,False,1,0.954980194568634,5.0,True,False,,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,cb839f7f02a44f9c,20,False,False,1,0.9552901387214661,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/run_pipeline.py::main:14-91::f5141cb3,e9c3ee985ae04504,21,False,False,1,0.9562657475471497,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::resolve_device_flags:78-82::f9ad318a,02b2ec73ed4ff8f3,1,True,True,0,0.0005033001070842147,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,edc33528df404689,1,False,True,0,0.0013694833032786846,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,7cb4d32a3d9bdd9d,2,False,True,0,0.24447038769721985,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,d9962111a306c3da,3,False,False,1,0.3080633878707886,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,80d2c41e111138a0,4,False,False,1,0.38997676968574524,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,d80c40d92da65dba,5,False,True,0,0.4612908959388733,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,9bb08c640889c7a4,6,False,False,1,0.5813174843788147,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,44e625f6b85e1995,7,False,True,0,0.5832371711730957,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,17a0304e8ca1bb05,8,False,True,0,0.5832579135894775,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,c91e38093929f79a,9,False,False,1,0.6181442141532898,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,536498be83e787db,10,False,False,1,0.6262282729148865,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,8741539365ebdab2,11,False,False,1,0.668660044670105,5.0,True,False,,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,9a945c369f624ccb,12,False,False,1,0.6860642433166504,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,4c10ac684dcdb84f,13,False,False,1,0.7252447605133057,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,af428a288a1200ed,14,False,False,1,0.748622715473175,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,d1132a8f3f11acc1,15,False,False,1,0.8134021759033203,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,b97ee27a367801b8,16,False,False,1,0.8323237299919128,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,3ff90da256b8fbaf,17,False,False,1,0.9211848974227905,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,7abbb96e7c442567,18,False,False,1,0.9266462922096252,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,98dc5cbc21f984ea,19,False,False,1,0.9294549822807312,14.0,True,True,False,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,5d5aabd1723b6e18,20,False,False,1,0.9312664866447449,30.0,True,True,True,False
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::main:85-170::058be423,f88386bcb2645a19,21,False,False,1,0.9312859177589417,5.0,True,False,,
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::__init__:24-39::a437d904,1af6daf7dfef1d60,1,True,True,0,0.00014093938807491213,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::__getitem__:44-50::c0da7b8a,a110ba2336ed14f1,1,True,True,0,0.00017717861919663846,30.0,True,True,True,True
+Full RefactorGuard-SC,C:/Users/zormi/Desktop/test gpt2/test_for_refactoring/train_gpt2.py::__call__:57-75::e6d8f0c1,f9901228da9c59c3,1,True,True,0,0.0021166307851672173,30.0,True,True,True,True

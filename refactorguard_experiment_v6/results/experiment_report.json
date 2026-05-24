@@ -1,0 +1,34 @@
+{
+  "experiment_scale": "article_scale",
+  "dataset_summary": {
+    "total_candidates": 554,
+    "tasks": 46,
+    "repo_candidates": 554,
+    "controlled_candidates": 0,
+    "safe_candidates": 222,
+    "regression_candidates": 332,
+    "compile_pass_candidates": 554,
+    "build_time_sec": 4.52
+  },
+  "split_mode": "group_by_task",
+  "device": "cuda",
+  "train_time_sec": 2.13,
+  "test_metrics": {
+    "loss_proxy": NaN,
+    "accuracy": 0.5542168674698795,
+    "precision": 1.0,
+    "recall": 0.0975609756097561,
+    "f1": 0.17777777777777778,
+    "roc_auc": 0.8850174216027875,
+    "average_precision": 0.8829915870306059
+  },
+  "outputs": {
+    "candidates_csv": "refactorguard_experiment_v6\\data\\candidates.csv",
+    "model_predictions_csv": "refactorguard_experiment_v6\\results\\model_predictions.csv",
+    "strategy_comparison_csv": "refactorguard_experiment_v6\\results\\strategy_comparison.csv",
+    "ablation_comparison_csv": "refactorguard_experiment_v6\\results\\ablation_comparison.csv",
+    "model_artifact": "refactorguard_experiment_v6\\artifacts\\refactorguard_risk_model_v6.pt",
+    "preprocessing_artifact": "refactorguard_experiment_v6\\artifacts\\refactorguard_preprocessing_v6.pkl"
+  },
+  "important_note": "If experiment_scale='pilot', do not present the numerical values as final article-scale evidence. Use them as a reproducible pilot or increase CONFIG['repo_roots'] / max_functions to collect more data."
+}

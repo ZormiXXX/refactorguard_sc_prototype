@@ -1,0 +1,6 @@
+strategy,tasks,accepted,rejected,incorrectly_accepted,correctly_accepted,residual_hallucination_rate_pct,autonomous_correct_completion_pct,mean_checked_candidates,mean_verification_cost_proxy,mean_accept_iteration
+Zero-shot,46,40,6,17,23,42.5,50.0,1.0,1.0,1.0
+Tests only,46,40,6,16,24,40.0,52.17391304347826,3.630434782608696,18.152173913043477,1.1
+Self-debug + tests,46,40,6,16,24,40.0,52.17391304347826,1.3478260869565217,6.739130434782608,1.1
+Full without risk model,46,40,6,4,36,10.0,78.26086956521739,4.173913043478261,91.82608695652173,1.725
+Full RefactorGuard-SC,46,40,6,0,40,0.0,86.95652173913044,3.5434782608695654,82.58695652173913,1.0
